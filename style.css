@@ -112,3 +112,65 @@ img{
 .card__btn:hover{
   background-color: #2757B2;
 }
+.footer{
+  padding: 10px 40px 0px;
+  color: #ffffff;
+  background: #05A88D;
+  font-family: 'Exo 2', sans-serif;
+  flex: 0 0 auto;
+}
+.footer__top{
+  height: 105px;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.logo{
+  width: 137px;
+  color: #F1E67D;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.text{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  width: 29.86vmax;
+  display: flex;
+  align-items: center;
+}
+.footer__right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.contact{
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 10px
+}
+.phone{
+  color: #F1E67D;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+.address{
+  font-weight: 300;
+  font-size: 12px;
+}
+.footer__bottom{
+  padding: 15px;
+  font-weight: 300;
+  font-size: 12px;
+}
